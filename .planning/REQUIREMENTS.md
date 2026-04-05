@@ -1,0 +1,15 @@
+# Requirements
+
+## Core requirements
+
+1. The repository must provide a reproducible Rust development environment through Nix.
+2. The repository must provide explicit instructions for AI coding agents.
+3. The repository must provide durable project memory files for requirements, roadmap, and current state.
+4. The repository must expose common workflows through stable task entrypoints.
+5. Local verification and CI verification must stay aligned.
+
+## Quality bar
+
+- New contributors should be able to understand the repo layout quickly.
+- Agent sessions should not need to rediscover basic workflow rules.
+- The default development loop should be obvious from the root of the repo.
