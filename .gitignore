@@ -1,0 +1,6 @@
+.direnv/
+.envrc.local
+result
+target/
+.planning/research/
+.planning/tmp/
