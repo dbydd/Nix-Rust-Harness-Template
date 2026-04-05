@@ -2,11 +2,11 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: Milestone complete
-last_updated: "2026-04-05T09:30:00.000Z"
+status: v1.0 milestone complete
+last_updated: "2026-04-05T09:24:22.289Z"
 progress:
   total_phases: 3
-  completed_phases: 3
+  completed_phases: 2
   total_plans: 5
   completed_plans: 5
 ---
@@ -19,10 +19,9 @@ Phase 3 team workflow refinement COMPLETE. All plans executed successfully. Harn
 
 ## Current position
 
-Phase: 03 (team-workflow-refinement) — COMPLETE
-Plan: 3 of 3 (complete)
+No active phase. Milestone `v1.0` is archived and complete.
 
-- Phase: 03-team-workflow-refinement
+- Last completed phase: 03-team-workflow-refinement
 - Last completed plan: 03-03 (Tailored add-feature and debug-failure prompts)
 
 ## Current assumptions
@@ -55,9 +54,9 @@ Plan: 3 of 3 (complete)
 
 ## Next likely steps
 
-1. Project milestone complete
-2. Consider archiving Phase 3 artifacts
-3. Evaluate next milestone scope
+1. Start the next milestone with `/gsd-new-milestone`
+2. Define fresh requirements for the next milestone
+3. Evaluate deferred Rust template profiles and packaging presets
 
 ---
 *Last updated: 2026-04-05*
