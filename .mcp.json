@@ -1,0 +1,30 @@
+{
+  "$schema": "https://example.com/mcp.schema.json",
+  "description": "Suggested MCP contract for a Rust + Nix coding harness.",
+  "servers": {
+    "filesystem": {
+      "purpose": "Read and modify workspace files safely."
+    },
+    "git": {
+      "purpose": "Inspect status, diffs, history, and branches."
+    },
+    "github": {
+      "purpose": "Create and review issues, pull requests, and CI state."
+    },
+    "docs": {
+      "purpose": "Retrieve authoritative package and framework documentation."
+    },
+    "search": {
+      "purpose": "Search the workspace and external code examples."
+    },
+    "browser": {
+      "purpose": "Exercise web interfaces when the Rust project includes a UI or docs site.",
+      "optional": true
+    }
+  },
+  "notes": [
+    "Treat this file as a contract sketch. Replace placeholder schema and server details with your actual client-specific MCP configuration.",
+    "Keep the list small and intentional. More tools are not automatically better.",
+    "Every enabled server should have a clear role in the development workflow."
+  ]
+}
